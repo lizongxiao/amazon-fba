@@ -1,4 +1,4 @@
-import { calculateAmazonFee } from "../Calculate/calculateAmazonFee";
+import { calculateAmazonFee } from "../Calculate/calculateFee";
 
 describe("calculateAmazonFee", () => {
   // 收取买家的运费
