@@ -1,10 +1,10 @@
-import { feeRules } from "../Rules/feeRules";
+import { sortedFeeRules } from "../Rules/feeRules";
 
 export function calculateAmazonFee(
   category: string,
   totalPrice: number
 ): number | null {
-  const rule = feeRules[category];
+  const rule = sortedFeeRules[category];
 
   if (!rule) {
     throw new Error("类别不存在"); // 未知类别，抛出错误
