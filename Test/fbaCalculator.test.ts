@@ -1,7 +1,6 @@
 // fbaCalculator.test.ts
 
 import { FBACalculator } from "../Calculate/FBACalculator"; // 根据你的实际文件路径调整
-import { describe, test, expect } from "@jest/globals";
 
 const SIZE_TIER_MAP: { [key: string]: number } = {
   SmallStandard: 1,
